@@ -1,19 +1,32 @@
-🗂️ Advanced Topics in DBMS
+📂 Advanced Topics in DBMS
 Advanced Databases Project 2024
 
-This repository contains the implementation of the Advanced Databases Project 2024. The project leverages Apache Spark, Apache Sedona, and Amazon SageMaker to explore:
+📖 Project Overview
+This repository contains the implementation of the Advanced Databases Project 2024.
+The project leverages:
 
+Apache Spark
+Apache Sedona
+Amazon SageMaker
+Key Objectives:
 Geospatial Analytics
+Analyze spatial relationships between crime locations and police stations.
 Distributed Data Processing
+Process large-scale datasets with Apache Spark for efficient handling.
 Query Optimization
-The project focuses on analyzing large-scale crime data in Los Angeles while utilizing cloud-based environments for scalability and efficiency.
-
-🛠️ Features
-Geospatial Querying: Analyze spatial relationships between crime locations and police stations using Apache Sedona.
-Distributed Data Processing: Process large-scale datasets efficiently using Apache Spark.
-Query Optimization: Compare performance across different configurations for parallelism and memory allocation.
-Data Insights: Generate reports on crime patterns and crime-to-police-station distances.
-📚 Technologies Used
+Compare configurations to optimize parallelism and memory allocation.
+Data Insights
+Provide insights into crime patterns and distances between crimes and police stations.
+✨ Features
+Geospatial Querying:
+Analyze spatial relationships using Apache Sedona's geospatial analytics capabilities.
+Distributed Data Processing:
+Efficiently process large datasets using Apache Spark.
+Query Optimization:
+Experiment with different configurations for executor memory, cores, and instances.
+Reports and Insights:
+Generate detailed reports on crime patterns and distance calculations.
+🛠️ Technologies Used
 Category	Technology
 Programming	Python
 Distributed Framework	Apache Spark
@@ -24,10 +37,8 @@ Data Formats	CSV, Parquet
 Visualization	Jupyter Notebooks
 🚀 Setup Instructions
 Prerequisites
-Ensure you have the following ready:
-
-Amazon SageMaker Notebook instance or a local setup with:
+Amazon SageMaker Notebook instance or local setup with:
 Python 3.8+
 Apache Spark 3.4+
 Apache Sedona 1.6.1
-An AWS account with S3 storage access.
+AWS account with S3 storage access.
