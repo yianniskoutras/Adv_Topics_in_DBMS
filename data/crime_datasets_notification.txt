@@ -1,0 +1,9 @@
+The 2 crime datasets (Crime_Data_from_2010_to_2019_20241101.csv and Crime_Data_from_2020_to_Present_20241101.csv) used for the assignment queries were of extremely large size and therefore could not be included in the present github repository.
+One may find these in the following link in AWS Amazon:
+
+(https://eu-central-1.console.aws.amazon.com/s3/buckets/initial-notebook-data-bucket-dblab-905418150721?region=eu-central-1&bucketType=general&prefix=CrimeData/&showversions=false)
+
+
+Similarly, the parquet version which was the result of the 2nd assignment question and was used for the 2nd query can be found in the following s3 bucket of our group (group 31):
+
+(https://eu-central-1.console.aws.amazon.com/s3/buckets/groups-bucket-dblab-905418150721?region=eu-central-1&bucketType=general&prefix=group31/&showversions=false)
